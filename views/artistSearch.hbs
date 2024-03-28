@@ -1,0 +1,10 @@
+<h1>Search results</h1>
+<div class="">
+    {{#each artists}}
+        <div class="card card-body">
+            <h2 class="card-title">{{name}}</h2>
+            <img src="{{images.[1].url}}" alt="{{name}} Image"/>         
+            <a class="btn btn-primary" href="/albums/{{id}}">View Albums</a>  
+        </div>
+    {{/each}}
+</div>

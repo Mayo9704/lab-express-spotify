@@ -1,0 +1,11 @@
+<h1  class="artist-search track-artist-search">Tracks</h1>
+
+<div class="track-info-artist">
+    {{#each artistPreviewTracks}}
+        <div class="info-artists track-box">
+            <h2>{{name}}</h2>
+            <img src="/images/blue cassette tape.png" alt="image not supported">        
+            <audio controls src="{{preview_url}}">This audio is not available.</audio>
+        </div>
+    {{/each}}
+</div>
